@@ -1,0 +1,25 @@
+2023-04-22 15:28:51.661  INFO 13544 --- [main] .c.p.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.6 on HP with PID 13544 (C:\Users\Rural Water\eclipse-workspace\employee-management-system\target\classes started by Rural Water in C:\Users\Rural Water\eclipse-workspace\employee-management-system)
+2023-04-22 15:28:51.664  INFO 13544 --- [main] .c.p.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-04-22 15:28:52.166  INFO 13544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-22 15:28:52.265  INFO 13544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+2023-04-22 15:28:52.648  INFO 13544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-22 15:28:52.656  INFO 13544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-22 15:28:52.656  INFO 13544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-22 15:28:53.005  INFO 13544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-22 15:28:53.006  INFO 13544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1296 ms
+2023-04-22 15:28:53.136  INFO 13544 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-22 15:28:53.170  INFO 13544 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-22 15:28:53.281  INFO 13544 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-22 15:28:53.355  INFO 13544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-22 15:28:53.591  INFO 13544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-22 15:28:53.616  INFO 13544 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-22 15:28:54.083  INFO 13544 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-22 15:28:54.095  INFO 13544 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-22 15:28:54.364  WARN 13544 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-22 15:28:55.197  INFO 13544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-22 15:28:55.205  INFO 13544 --- [main] .c.p.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 3.867 seconds (JVM running for 4.678)
+2023-04-22 16:49:32.107  INFO 13544 --- [RMI TCP Connection(84)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-22 16:49:32.417  INFO 13544 --- [RMI TCP Connection(84)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-22 16:49:32.502  INFO 13544 --- [RMI TCP Connection(84)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-22 16:49:32.520  INFO 13544 --- [RMI TCP Connection(84)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-22 16:49:32.531  INFO 13544 --- [RMI TCP Connection(84)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

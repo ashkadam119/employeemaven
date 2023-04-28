@@ -1,0 +1,44 @@
+2023-04-22 15:59:45,317 INFO com.capstone.project.EmployeeManagementSystemApplication [main] Starting EmployeeManagementSystemApplication using Java 17.0.6 on HP with PID 16176 (C:\Users\Rural Water\eclipse-workspace\employee-management-system\target\classes started by Rural Water in C:\Users\Rural Water\eclipse-workspace\employee-management-system)
+2023-04-22 15:59:45,323 INFO com.capstone.project.EmployeeManagementSystemApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-22 15:59:45,851 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-22 15:59:45,996 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interfaces.
+2023-04-22 15:59:46,406 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2023-04-22 15:59:46,414 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-04-22 15:59:46,414 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-22 15:59:46,731 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-22 15:59:46,732 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1364 ms
+2023-04-22 15:59:46,862 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-22 15:59:46,894 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-22 15:59:47,025 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-22 15:59:47,108 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-22 15:59:47,340 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-22 15:59:47,358 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-22 15:59:47,821 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-22 15:59:47,848 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-22 15:59:48,080 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-22 15:59:48,869 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2023-04-22 15:59:48,881 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-22 15:59:48,883 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-04-22 15:59:48,889 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-04-22 15:59:48,890 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2023-04-22 15:59:48,899 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-22 15:59:48,913 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2023-04-22 16:00:05,607 INFO com.capstone.project.EmployeeManagementSystemApplication [main] Starting EmployeeManagementSystemApplication using Java 17.0.6 on HP with PID 4032 (C:\Users\Rural Water\eclipse-workspace\employee-management-system\target\classes started by Rural Water in C:\Users\Rural Water\eclipse-workspace\employee-management-system)
+2023-04-22 16:00:05,614 INFO com.capstone.project.EmployeeManagementSystemApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-22 16:00:06,155 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-22 16:00:06,259 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interfaces.
